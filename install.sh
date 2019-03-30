@@ -24,3 +24,7 @@ make
 sudo make install
 
 sudo cp /usr/local/lib/libgraph.* /usr/lib
+
+sudo rm -r Graphics-Installation
+
+sudo rm -r install
