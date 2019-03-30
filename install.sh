@@ -17,13 +17,17 @@ git clone https://github.com/RJoshi9211/Graphics-Installation.git
 
 cd Graphics-Installation
 
+chmod +x configure
+
 ./configure --disable-guile
 
-make
+sudo make
 
 sudo make install
 
 sudo cp /usr/local/lib/libgraph.* /usr/lib
+
+cd
 
 sudo rm -r Graphics-Installation
 
